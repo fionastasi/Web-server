@@ -1,14 +1,9 @@
-"""Execute exactly this copy of pip, within a different environment.
 
-This file is named as it is, to ensure that this module can't be imported via
-an import statement.
-"""
 
 # /!\ This version compatibility check section must be Python 2 compatible. /!\
 
 import sys
 
-# Copied from setup.py
 PYTHON_REQUIRES = (3, 7)
 
 
